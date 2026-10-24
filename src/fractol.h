@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alpascua <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alexp <alexp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 13:03:17 by alpascua          #+#    #+#             */
-/*   Updated: 2025/05/12 11:32:32 by alpascua         ###   ########.fr       */
+/*   Updated: 2026/10/24 13:37:51 by alexp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#ifndef FRACTOL_H
+
 # define FRACTOL_H
 # include <math.h>
 # include <fcntl.h>
@@ -19,7 +19,6 @@
 # include "../lib/Libft/libft.h"
 # include "../lib/ft_printf/libftprintf.h"
 # include "../mlx_linux/mlx.h"
-# include "../mlx_linux/mlx_int.h"
 
 # define UP 65362
 # define DOWN 65364
@@ -79,5 +78,3 @@ int		exit_fractal(t_vars *vars, int ex);
 int		key_hook(int keycode, t_vars *vars);
 
 int		mouse_hook(int code, int x, int y, t_vars *vars);
-
-#endif

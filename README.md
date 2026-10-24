@@ -19,7 +19,13 @@ Firstly, copy the repository into you computer directory
 git clone https://github.com/alexpg7/fract-ol.git fract-ol && cd fract-ol
 ```
 
-Once copied, just execute the `make` command
+Now, you will need the ``mlx_linux`` library (with the 2021 version), downlowad it using the ``setup.sh`` script:
+
+```bash
+bash setup.sh
+```
+
+Once downloaded, just execute the `make` command
 
 ```bash
 make
@@ -27,7 +33,7 @@ make
 
 > [!WARNING]
 > The **mlx_linux/configure** file can lead to some problems during the compilation.
-> 
+>
 > To solve them, execute
 > ```bash
 > chmod 777 mlx_linux/configure
